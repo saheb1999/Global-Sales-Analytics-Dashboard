@@ -1,3 +1,4 @@
+# ![download (1)]([https://github.com/saheb1999/Global-Sales-Analytics-Dashboard/blob/main/Github_sales%20image.png])
 # 🌍 Global Sales Analytics Dashboard  
 ### ** EXCEL + SQL + Power BI | End-to-End Data Analysis Project**
 
