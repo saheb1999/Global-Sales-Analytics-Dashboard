@@ -1,83 +1,100 @@
-# ![download (1)]([https://github.com/saheb1999/Global-Sales-Analytics-Dashboard/blob/main/Github_sales%20image.png])
+# ![download (1)](https://github.com/saheb1999/Global-Sales-Analytics-Dashboard/blob/main/Github_sales%20image.png)
 # 🌍 Global Sales Analytics Dashboard  
 ### ** EXCEL + SQL + Power BI | End-to-End Data Analysis Project**
 
-This repository contains my complete **Global Sales Analytics** project, built using **MySQL**, **DAX**, and **Power BI**.  
+This repository contains my complete **Global Sales Analytics** project, built using **MySQL**, **DAX**,  **EXCEL**, and **Power BI**.  
 It analyzes sales transactions across **7 countries**, **500+ stores**, **multiple product categories**, and **diverse customer groups**.
 
 ---
 
-## 📌 Project Overview
+## 📁 Project Overview
+This project presents an interactive **Global Sales Analytics Dashboard** built in **Power BI**, analyzing sales across **7 countries**, product categories, customer demographics, and store locations.
 
-The goal of this project is to transform raw sales records into meaningful business insights using:
-
-- **SQL** for data cleaning, transformation & model preparation  
-- **DAX** for advanced calculations (YTD, YOY, QoQ, Rolling 12M)  
-- **Power BI** for a fully interactive multi-page dashboard  
-
-This project covers **Sales**, **Profit**, **Customers**, **Products**, **Stores**, and **Time Intelligence** analysis.
+The dashboard delivers deep insights into **profitability**, **customer behavior**, **store performance**, and **time-based trends**, helping organizations make data-driven decisions.
 
 ---
 
-## 📊 Dashboard Pages
-
-### **1️⃣ Home Page – Summary**
-- Total Sales, Total Profit, Total Orders  
-- Discounts Given, Average Order Value  
-- Business Highlights Section  
-- Navigation buttons
-
-### **2️⃣ Overview Page**
-- Sales by Country  
-- Sales by Month  
-- Profit by Country  
-- Sales Split by Payment Method  
-
-### **3️⃣ Customer Insights**
-- Sales by Age Group  
-- Profit by Gender  
-- Category Discounts  
-- Discounts by Payment Method  
-- Average Quantity & Profit per Order  
-
-### **4️⃣ Product & Store Performance**
-- Top Store Location  
-- Top Category by Sales  
-- Top Product by Sales  
-- Number of Stores  
-- Top 10 Products by Sales & Profit  
-- Sales by Store Location (Treemap)
-
-### **5️⃣ Time Intelligence & Trends**
-- YTD Sales & YTD Profit  
-- YoY & QoQ Growth  
-- Monthly Revenue Trend  
-- Rolling 12-Month Sales Trend  
-- Quarterly Comparison  
+## 🔍 Key Features
+- 💰 **Sales Overview**: Total Sales, Profit, Orders, Discounts, AOV  
+- 🌍 **Country Performance**: Compare sales & profit across multiple regions  
+- 🛒 **Category Analysis**: Identify top-performing and low-performing categories  
+- 👥 **Customer Insights**: Age group and gender-based buying behavior  
+- 🏬 **Store Insights**: Best-performing stores worldwide  
+- 🕒 **Time Intelligence**: YoY, QoQ, YTD trends & rolling 12-month analysis  
+- 🎯 **Fully Interactive Filters**: Country | Category | Payment Method | Age | Gender | Month | Year  
 
 ---
 
-## 🧮 Key DAX Measures
+## 📊 KPIs Included
+- **Total Profit**  
+- **Total Sales**  
+- **Total Orders**  
+- **Average Order Value (AOV)**  
+- **Total Discount Given**  
+- **Profit Margin %**  
+- **YoY Growth %**  
+- **QoQ Growth %**  
+- **Sales YTD & Profit YTD**
 
-Some important measures used:
+---
 
-```DAX
-Total Sales = SUM(master_sales_data[Total_Amount])
+## 💻 Tools Used
+- **Power BI Desktop**
+- **MySQL Database**
+- **Power Query (ETL)**
+- **DAX (Time Intelligence & KPIs)**
+- **Custom Icons, Shapes & Themes**
 
-Total Profit = SUM(master_sales_data[Profit])
+---
 
-Total Orders = DISTINCTCOUNT(master_sales_data[Order_ID])
+## 📁 Dashboard Pages
 
-Avg Order Value = [Total Sales] / [Total Orders]
+### 📌 1. Summary (Home Page)  
+![Summary](https://github.com/saheb1999/Global-Sales-Analytics-Dashboard/blob/main/SA_Summary.png))
 
-Sales YTD = TOTALYTD([Total Sales], 'Date_Table'[Date])
+---
 
-Profit YTD = TOTALYTD([Total Profit], 'Date_Table'[Date])
+### 📌 2. Overview – Sales Performance  
+![Overview](https://github.com/saheb1999/Global-Sales-Analytics-Dashboard/blob/main/SA_Overview.png)
 
-YoY Growth % = 
-VAR PrevYear = CALCULATE([Total Sales], DATEADD('Date_Table'[Date], -1, YEAR))
-RETURN ([Total Sales] - PrevYear) / PrevYear
+---
 
-QoQ Growth % =
-VAR PrevQ = CALCULATE([Total Sales], DATEADD('Date_Table'[Date], -1, QUARTER))
-RETURN ([Total Sales] - PrevQ) / PrevQ
+### 📌 3. Customer Insights  
+![Customer Insights](https://github.com/saheb1999/Global-Sales-Analytics-Dashboard/blob/main/SA_Customer.png)
+
+---
+
+### 📌 4. Product & Store Performance  
+![Product Store](https://github.com/saheb1999/Global-Sales-Analytics-Dashboard/blob/main/Sa_Product.png)
+
+---
+
+### 📌 5. Time Intelligence & Trends  
+![Time Trends](https://github.com/saheb1999/Global-Sales-Analytics-Dashboard/blob/main/SA_Time.png)
+
+---
+
+## 🔑 Business Highlights
+- 💵 **$4.85M+ Total Sales** across all markets  
+- 🌎 **Australia, US & China** lead in both revenue and profitability  
+- 🏆 **Home & Kitchen** is the top-performing category  
+- 👥 **Adults aged 25–40** generate the highest sales volume  
+- 🏬 **Top Stores**: New York, Birmingham & Guangzhou  
+- 📅 Strong upward trend from **May → December**  
+- 📈 **YoY Growth:** 78.51% | **QoQ Growth:** 33.79%  
+- 🎯 **Discount impact**: ₹89.54K discounts boosted conversions  
+- 🔄 **Rolling 12-Month Trend** shows stable upward growth  
+
+---
+
+## 🙌 Author
+**Saheb Rafique**  
+🔗LinkedIn: https://www.linkedin.com/in/saheb-rafique-87b2b9186  
+🔗 GitHub: https://github.com/saheb1999 
+🔗 Website: https://saheb-rafique.netlify.app/
+
+---
+
+## ⭐ Feel free to fork, clone, or use this project for your portfolio!
+
+---
