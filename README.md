@@ -3,7 +3,7 @@
 ### ** EXCEL + SQL + Power BI | End-to-End Data Analysis Project**
 
 This repository contains my complete **Global Sales Analytics** project, built using **MySQL**, **DAX**,  **EXCEL**, and **Power BI**.  
-It analyzes sales transactions across **7 countries**, **500+ stores**, **multiple product categories**, and **diverse customer groups**.
+It analyzes sales transactions across **9 countries**, **500+ stores**, **multiple product categories**, and **diverse customer groups**.
 
 ---
 
@@ -47,6 +47,22 @@ The dashboard delivers deep insights into **profitability**, **customer behavior
 
 ---
 
+---
+
+## 🔄 Automated Refresh Using Power BI Gateway
+
+Since MySQL does not support DirectQuery in Power BI Service, I configured an On-Premises Data Gateway to automate refreshes.
+
+## What was done:
+🔗 Connected Power BI Service to MySQL via On-Premises Gateway
+🔐 Stored encrypted MySQL credentials securely in the gateway
+🔁 Configured scheduled refresh for automated daily updates
+🔧 Performed manual refresh to validate end-to-end automation
+📊 After adding new data for Saudi Arabia & UAE, dashboards updated automatically
+This ensures the dashboard stays always up-to-date without republishing PBIX, demonstrating a production-ready BI workflow.
+
+---
+
 ## 📁 Dashboard Pages
 
 ### 📌 1. Summary (Home Page)  
@@ -75,14 +91,14 @@ The dashboard delivers deep insights into **profitability**, **customer behavior
 ---
 
 ## 🔑 Business Highlights
-- 💵 **$4.85M+ Total Sales** across all markets  
-- 🌎 **Australia, US & China** lead in both revenue and profitability  
+- 💵 **$7.58M+ Total Sales** across all markets  
+- 🌎 **Saudi Arabia, Uae & Australia** lead in both revenue and profitability  
 - 🏆 **Home & Kitchen** is the top-performing category  
 - 👥 **Adults aged 25–40** generate the highest sales volume  
-- 🏬 **Top Stores**: New York, Birmingham & Guangzhou  
+- 🏬 **Top Stores**: Riyadh, New York, Birmingham & Guangzhou  
 - 📅 Strong upward trend from **May → December**  
-- 📈 **YoY Growth:** 78.51% | **QoQ Growth:** 33.79%  
-- 🎯 **Discount impact**: ₹89.54K discounts boosted conversions  
+- 📈 **YoY Growth:** 123.33% | **QoQ Growth:** 19.26%  
+- 🎯 **Discount impact**: ₹99.85K discounts boosted conversions  
 - 🔄 **Rolling 12-Month Trend** shows stable upward growth  
 
 ---
