@@ -8,7 +8,7 @@ It analyzes sales transactions across **9 countries**, **500+ stores**, **multip
 ---
 
 ## 📁 Project Overview
-This project presents an interactive **Global Sales Analytics Dashboard** built in **Power BI**, analyzing sales across **7 countries**, product categories, customer demographics, and store locations.
+This project presents an interactive **Global Sales Analytics Dashboard** built in **Power BI**, analyzing sales across **9 countries**, product categories, customer demographics, and store locations.
 
 The dashboard delivers deep insights into **profitability**, **customer behavior**, **store performance**, and **time-based trends**, helping organizations make data-driven decisions.
 
